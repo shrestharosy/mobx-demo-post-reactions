@@ -1,0 +1,24 @@
+{
+  "name": "react-custom-webpack-configuration",
+  "version": "1.0.0",
+  "description": "Webpack setup for React.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shrestharosy/react-custom-webpack-configuration.git"
+  },
+  "keywords": [],
+  "author": "Rosy Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shrestharosy/react-custom-webpack-configuration/issues"
+  },
+  "homepage": "https://github.com/shrestharosy/react-custom-webpack-configuration#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
