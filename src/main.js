@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Main from "./components/dummyComponent";
+import Dashboard from "./components/Dashboard";
 
-ReactDOM.render(<Main />, document.getElementById('app'));
+ReactDOM.render(<Dashboard />, document.getElementById('app'));
 
 if (module.hot) {
     // enables hot module replacement if plugin is installed
