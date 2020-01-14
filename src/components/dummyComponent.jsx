@@ -4,7 +4,7 @@ export class DummyComponent extends Component {
  render() {
    return (
      <div>
-       Webpack configuration
+       Webpack configuration setup successfully
      </div>
    )
  }

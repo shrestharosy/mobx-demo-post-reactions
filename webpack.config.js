@@ -12,6 +12,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'), // base path where to send compiled assets
         publicPath: PUBLIC_PATH // base path where referenced files will be look for
     },
+    devServer: {
+        contentBase: path.join(__dirname, './'), // where dev server will look for static files, not compiled
+        publicPath: '/', //relative path to output path where  devserver will look for compiled files
+        hot: true
+    },
     resolve: {
         extensions: ['*', '.js', '.jsx'],
         alias: {
@@ -31,7 +36,10 @@ module.exports = {
         ]
     },
     plugins: [
-        new HtmlWebpackPlugin({ // plugin for inserting scripts into html
+        new HtmlWebpackPlugin({
+            template: "./src/index.html",
+            filename: "index.html",
+            title: "Learning Webpack"
         }),
     ]
 }
