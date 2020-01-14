@@ -15,7 +15,8 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, './'), // where dev server will look for static files, not compiled
         publicPath: '/', //relative path to output path where  devserver will look for compiled files
-        hot: true
+        hot: true,
+        open: true
     },
     resolve: {
         extensions: ['*', '.js', '.jsx'],
