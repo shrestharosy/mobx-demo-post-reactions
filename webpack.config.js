@@ -10,11 +10,11 @@ module.exports = {
     output: {
         filename: 'js/[name].bundle.js',
         path: path.resolve(__dirname, 'dist'), // base path where to send compiled assets
-        publicPath: PUBLIC_PATH // base path where referenced files will be look for
+        publicPath: PUBLIC_PATH // base path where referenced files will be looked for
     },
     devServer: {
         contentBase: path.join(__dirname, './'), // where dev server will look for static files, not compiled
-        publicPath: '/', //relative path to output path where  devserver will look for compiled files
+        publicPath: PUBLIC_PATH, //relative path to output path where devserver will look for compiled files
         hot: true,
         open: true
     },
