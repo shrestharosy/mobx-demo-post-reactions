@@ -1,7 +1,7 @@
 {
-  "name": "react-custom-webpack-configuration",
+  "name": "mobx-demo-post-reactions",
   "version": "1.0.0",
-  "description": "Webpack setup for React.js applications",
+  "description": "A simle app to showcae mobx features",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shrestharosy/react-custom-webpack-configuration.git"
+    "url": "git+https://github.com/shrestharosy/mobx-demo-post-reactions.git"
   },
   "keywords": [],
   "author": "Rosy Shrestha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shrestharosy/react-custom-webpack-configuration/issues"
+    "url": "https://github.com/shrestharosy/mobx-demo-post-reactions/issues"
   },
-  "homepage": "https://github.com/shrestharosy/react-custom-webpack-configuration#readme",
+  "homepage": "https://github.com/shrestharosy/mobx-demo-post-reactions#readme",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
