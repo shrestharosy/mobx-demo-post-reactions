@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Comments() {
     return (
-        <table class="table">
+        <table className="table">
             <tbody>
                 <tr>
                     <td>Wow</td>
