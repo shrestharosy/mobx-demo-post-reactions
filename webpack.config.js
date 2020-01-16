@@ -27,13 +27,20 @@ module.exports = {
     module: {
         rules: [
             {
-                // config for es6 jsx
+                // compile es6 jsx into normal ES5
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 use: {
                     loader: "babel-loader"
                 }
-            }
+            },
+            {
+                test: /\.(css)$/,
+                use: [
+                    "style-loader", // creates style nodes from JS strings
+                    "css-loader", // translates CSS into CommonJS
+                ]
+            },
         ]
     },
     plugins: [
