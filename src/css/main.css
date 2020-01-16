@@ -2,8 +2,15 @@
     width: 26rem;
 }
 
+.card-body{
+    padding: 12px;
+}
+
 .reactions-count {
-    margin: 10px 0px 0px 15px;
+    width: 26rem;
+    padding: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    font-size: 0.8rem
 }
 
 .fa {
@@ -13,6 +20,7 @@
 
 .fa-thumbs-up {
     color: #339AF0;
+    font-size: 1rem
 }
 
 form {

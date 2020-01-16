@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import './css/main.css'
-import Dashboard from "./components/Dashboard";
+import Post from "./components/Post";
 
-ReactDOM.render(<Dashboard />, document.getElementById('app'));
+ReactDOM.render( < Post /> , document.getElementById('app'));
 
 if (module.hot) {
     // enables hot module replacement if plugin is installed
