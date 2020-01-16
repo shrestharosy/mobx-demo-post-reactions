@@ -4,7 +4,7 @@ export default function Image() {
     return (
         <div className="card">
             <img src="https://picsum.photos/400/400" className="card-img-top" alt="..." />
-            <div className="card-body" align="left">
+            <div className={"reactions-count"} align="left">
                 <i class="fa fa-thumbs-up" />22
             </div>
             <div className="card-body">

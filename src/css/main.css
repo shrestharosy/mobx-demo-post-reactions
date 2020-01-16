@@ -2,6 +2,10 @@
     width: 26rem;
 }
 
+.reactions-count {
+    margin: 10px 0px 0px 15px;
+}
+
 .fa {
     font-size: x-large;
     margin-right: 8px;
@@ -9,4 +13,16 @@
 
 .fa-thumbs-up {
     color: #339AF0;
+}
+
+form {
+    width: 26rem;
+    padding: 8px;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+}
+
+input[type="text"] {
+    border-radius: 22px;
+    background: #F2F3F5;
 }
