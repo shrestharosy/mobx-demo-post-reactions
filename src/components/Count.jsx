@@ -1,5 +1,5 @@
-import React, { Component, useContext } from 'react';
-import { observer, inject, useObserver } from 'mobx-react';
+import React, { useContext } from 'react';
+import { useObserver } from 'mobx-react';
 import { StoreContext } from '../main'
 
 export default function ReactionsCount() {
