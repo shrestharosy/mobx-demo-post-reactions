@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import './css/main.css'
 import Post from "./components/Post";
-import CountStoreInstance from './store/CountStore'
+import countStoreInstance from './store/CountStore'
 
 export const StoreContext = React.createContext();
 
 ReactDOM.render(
-    <StoreContext.Provider value={CountStoreInstance}>
-        < Post />
-    </StoreContext.Provider >
+        <StoreContext.Provider value={countStoreInstance}>
+            <Post />
+        </StoreContext.Provider >
     , document.getElementById('app'));
 
 if (module.hot) {

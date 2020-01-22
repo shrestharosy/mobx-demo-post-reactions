@@ -1,9 +1,14 @@
-import { observable } from 'mobx'
+import { observable, action } from 'mobx'
 
 class CountStore {
-    @observable likesCount = 0
+    @observable likesCount = 12
+
+    @action updateCount = () => {
+        this.likesCount++;
+    }
+    
 }
 
-const CountStoreInstance = new CountStore()
+const countStoreInstance = new CountStore()
 
-export default CountStoreInstance;
+export default countStoreInstance;
