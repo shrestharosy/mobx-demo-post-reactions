@@ -5,7 +5,8 @@ export default class Form extends React.Component {
     
     handleSubmit = (e, store) => {
         e.preventDefault();
-        store.postComment(this.comment.value)
+        store.postComment(this.comment.value);
+        this.comment.value = "";
     }
 
     render() {

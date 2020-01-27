@@ -5,15 +5,14 @@ class Store {
 
     @observable comments = ["Wow", "awesome"]
 
-    @action updateCount = () => {
+    @action updateCount() {
         this.likesCount++;
     }
 
-    @action postComment = (comment) => {
+    @action postComment(comment) {
         this.comments.push(comment)
-        console.log(this.comments)
     }
-    
+
 }
 
 const storeInstance = new Store()
