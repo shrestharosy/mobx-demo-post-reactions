@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { StoreContext } from '../main';
 
 export default class Form extends React.Component {
-    
+
     handleSubmit = (e, store) => {
         e.preventDefault();
         store.postComment(this.comment.value);
@@ -17,7 +17,7 @@ export default class Form extends React.Component {
 
                         <form onSubmit={(e) => this.handleSubmit(e, store)}>
                             <div>
-                                <input type="text" name={'comment'} className="form-control" placeholder={"Write a comment ..."} ref={node => {
+                                <input type="text" id={'comment'} className="form-control" placeholder={"Write a comment ..."} ref={node => {
                                     this.comment = node;
                                 }} />
                             </div>
