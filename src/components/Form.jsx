@@ -1,11 +1,29 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { StoreContext } from '../main';
 
-export default function Form() {
-    return (
-        <form>
-            <div>
-                <input type="text" className="form-control" placeholder={"Write a comment ..."} />
-            </div>
-        </form>
-    )
+export default class Form extends React.Component {
+    
+    handleSubmit = (e, store) => {
+        e.preventDefault();
+        store.postComment(this.comment.value)
+    }
+
+    render() {
+        return (
+            <StoreContext.Consumer>
+                {
+                    store => (
+
+                        <form onSubmit={(e) => this.handleSubmit(e, store)}>
+                            <div>
+                                <input type="text" name={'comment'} className="form-control" placeholder={"Write a comment ..."} ref={node => {
+                                    this.comment = node;
+                                }} />
+                            </div>
+                        </form>
+                    )
+                }
+            </StoreContext.Consumer>
+        )
+    }
 }

@@ -8,6 +8,11 @@ class Store {
     @action updateCount = () => {
         this.likesCount++;
     }
+
+    @action postComment = (comment) => {
+        this.comments.push(comment)
+        console.log(this.comments)
+    }
     
 }
 

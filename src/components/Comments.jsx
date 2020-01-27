@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import { StoreContext } from '../main';
+import { useObserver } from 'mobx-react';
 
 export default function Comments() {
     const store = useContext(StoreContext)
-    return (
+    return useObserver(() => (
         <table className="table">
             <tbody>
                 {
@@ -20,5 +21,6 @@ export default function Comments() {
                 }
             </tbody>
         </table>
+    )
     )
 }
