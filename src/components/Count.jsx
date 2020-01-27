@@ -10,7 +10,7 @@ export default function Count() {
                 <i className="fa fa-thumbs-up" />{store.likesCount}
             </div>
             <div className="col-sm" align="right">
-                3 comments
+                {store.commentsCount} comments
         </div>
         </div>
     ))
