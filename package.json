@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/shrestharosy/mobx-demo-post-reactions/issues"
   },
-  "homepage": "https://github.com/shrestharosy/mobx-demo-post-reactions#readme",
+  "homepage": "http://shrestharosy.github.io/mobx-demo-post-reactions",
   "devDependencies": {
     "@babel/core": "^7.7.7",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
