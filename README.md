@@ -21,5 +21,3 @@ The page will reload if you make edits.
 ```yarn build```
 
 Creates a minified build file under dist folder.
-
-## Output
