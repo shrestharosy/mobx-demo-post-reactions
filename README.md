@@ -1,5 +1,7 @@
 # mobx-demo-post-reactions
-A simple example to showcase MobX features
+A simple example to showcase MobX features. Try it out [here]()
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/30471808/73444950-93d76400-4351-11ea-9976-d88886f57a56.gif)
 
 ## Prerequisites
 
